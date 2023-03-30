@@ -8,6 +8,15 @@
 
 using namespace std;
 
+bool estEntierValide(string s) {
+    for (char c : s) {
+        if (!isdigit(c)) {
+            return false;
+        }
+    }
+    return true;
+}
+
 int main() {
     Patisserie patisserie;
     int choix = 0;
@@ -158,6 +167,29 @@ int main() {
                         }
                     }
 
+                    validation = false;
+                    string nbGateau;
+                    while(!validation){
+                        cout << "Combien de Chou voulez vous mettre dans votre Patisserie ?" << endl;
+                        cin >> nbGateau;
+                        if (!estEntierValide(nbGateau)){
+                            cout << "Erreur dans la saisie !" << endl;
+                            continue;
+                        }
+                        int valeurGateau= stoi(nbGateau);
+                        if (valeurGateau > 0){
+                            validation = true;
+                        } else {
+                            cout << "Il me faut au minimum 1 gateau, soit malin !" << endl;
+                        }
+
+                        for(int i = 0; i < valeurGateau; i++) {
+                            patisserie.ajouter(chou);
+                        }
+
+                    }
+                    chou.afficherIngredients();
+
                     int nbGateauChou;
                     cout << "Combien de chou voulez vous mettre dans votre Patisserie ?" << endl;
                     cin >> nbGateauChou;
@@ -239,12 +271,26 @@ int main() {
                         }
                     }
 
-                    int nbGateauTarte;
-                    cout << "Combien de Tarte voulez vous mettre dans votre Patisserie ?" << endl;
-                    cin >> nbGateauTarte;
+                    validation = false;
+                    string nbGateau;
+                    while(!validation){
+                        cout << "Combien de Tarte voulez vous mettre dans votre Patisserie ?" << endl;
+                        cin >> nbGateau;
+                        if (!estEntierValide(nbGateau)){
+                            cout << "Erreur dans la saisie !" << endl;
+                            continue;
+                        }
+                        int valeurGateau = stoi(nbGateau);
+                        if (valeurGateau > 0){
+                            validation = true;
+                        } else {
+                            cout << "Il me faut au minimum 1 gateau, soit malin !" << endl;
+                        }
 
-                    for(int i = 0; i < nbGateauTarte; i++) {
-                        patisserie.ajouter(tarte);
+                        for(int i = 0; i < valeurGateau; i++) {
+                            patisserie.ajouter(tarte);
+                        }
+
                     }
                     tarte.afficherIngredients();
 

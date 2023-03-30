@@ -3,8 +3,8 @@
 //
 #include "Patisserie.hpp"
 
-void Patisserie::ajouter(Gateau gateau) {
-    stock_.push_back(&gateau);
+void Patisserie::ajouter(Gateau* gateau) {
+    stock_.push_back(gateau);
 }
 
 void Patisserie::retirer(Gateau* gateau) {

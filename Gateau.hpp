@@ -18,8 +18,8 @@ public:
         this->nom = nom;
     }
 
-    void ajouterIngredient(Ingredient ingredient) {
-        ingredients.push_back(ingredient);
+    void ajouterIngredient(Ingredient* ingredient) {
+        ingredients.push_back(*ingredient);
     }
 
     void afficherIngredients() {

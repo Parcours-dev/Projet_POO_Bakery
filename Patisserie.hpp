@@ -18,7 +18,7 @@ private:
     std::vector<Gateau*> stock_; // Stock de la patisserie
 public:
     // Ajoute un nouveau gateau au stock
-    void ajouter(Gateau gateau);
+    void ajouter(Gateau* gateau);
 
     // Retire un gateau du stock
     void retirer(Gateau* gateau);

@@ -101,9 +101,9 @@ int main() {
                     cout << "Type de creme (Vanille (1) ou Chocolat (2)) : ";
                     cin >> choixCreme;
                     if(choixCreme == "1" ){
-                        chou.ajouterIngredient(cremeVanille);
+                        chou.ajouterIngredient(new Ingredient("Creme Vanille", qtCremeVanille));
                     }else if (choixCreme == "2"){
-                        chou.ajouterIngredient(cremeChocolat);
+                        chou.ajouterIngredient(new Ingredient("Creme Chocolat", qtCremeChocolat));
                     }else {
                         cout << "Erreur dans le choix de la creme !";
                     }
@@ -111,7 +111,7 @@ int main() {
                     cout << "Presence de Chantilly ? (1 = Oui / 0 = Non) :" << endl;
                     cin >> choixChantilly;
                     if(choixChantilly == "1" ){
-                        chou.ajouterIngredient(chantilly);
+                        chou.ajouterIngredient(new Ingredient("Chantilly", qtChantilly));
                     }else {
                         cout << "Erreur dans la saisie !";
                     }
@@ -119,7 +119,7 @@ int main() {
                     cout << "Presence de Noisettes ? (1 = Oui / 0 = Non) :" << endl;
                     cin >> choixNoisettes;
                     if(choixChantilly == "1" ){
-                        chou.ajouterIngredient(noisettes);
+                        chou.ajouterIngredient(new Ingredient("Noisettes", qtNoisetteChou));
                     }else {
                         cout << "Erreur dans la saisie !";
                     }
@@ -127,7 +127,7 @@ int main() {
                     cout << "Presence d'amandes grillees ? (1 = Oui / 0 = Non) :" << endl;
                     cin >> choixAmandesGrillee;
                     if(choixChantilly == "1" ){
-                        chou.ajouterIngredient(amandesGrillees);
+                        chou.ajouterIngredient(new Ingredient("Amandes Grillees", qtAmandesGrilleesChou));
                     }else {
                         cout << "Erreur dans la saisie !";
                     }
@@ -137,7 +137,7 @@ int main() {
                     cin >> nbGateauChou;
 
                     for(int i = 0; i < nbGateauChou; i++) {
-                        patisserie.ajouter(chou);
+                        patisserie.ajouter(&chou);
                     }
 
                     chou.afficherIngredients();
@@ -147,7 +147,7 @@ int main() {
 
                     Ingredient fruitPomme("Pomme", qtPommes);
                     Ingredient fruitAbricot("Abricot", qtAbricots);
-                    Ingredient meringue("Mereingue", qtMeringue);
+                    Ingredient meringue("Meringue", qtMeringue);
                     Ingredient noisettes("Noisettes", qtNoisetteTarte);
                     Ingredient amandesGrillees("Amandes Grillees", qtAmandesGrilleesTarte);
 
@@ -165,9 +165,9 @@ int main() {
                     cout << "Base de fruit (Pomme (1) ou Abricot (2)) : ";
                     cin >> choixFruit;
                     if(choixFruit == "1" ){
-                        tarte.ajouterIngredient(fruitPomme);
+                        tarte.ajouterIngredient(new Ingredient("Pomme", qtPommes));
                     }else if (choixFruit == "2"){
-                        tarte.ajouterIngredient(fruitAbricot);
+                        tarte.ajouterIngredient(new Ingredient("Abricot", qtAbricots));
                     }else {
                         cout << "Erreur dans le choix de la creme !";
                     }
@@ -175,7 +175,7 @@ int main() {
                     cout << "Presence de Meringue ? (1 = Oui / 0 = Non) :" << endl;
                     cin >> choixMereingue;
                     if(choixMereingue == "1" ){
-                        tarte.ajouterIngredient(meringue);
+                        tarte.ajouterIngredient(new Ingredient("Meringue", qtMeringue));
                     }else {
                         cout << "Erreur dans la saisie !";
                     }
@@ -183,7 +183,7 @@ int main() {
                     cout << "Presence de Noisettes ? (1 = Oui / 0 = Non) :" << endl;
                     cin >> choixNoisettes;
                     if(choixNoisettes == "1" ){
-                        tarte.ajouterIngredient(noisettes);
+                        tarte.ajouterIngredient(new Ingredient("Noisettes", qtNoisetteTarte));
                     }else {
                         cout << "Erreur dans la saisie !";
                     }
@@ -191,7 +191,7 @@ int main() {
                     cout << "Presence d'amandes grillees ? (1 = Oui / 0 = Non) :" << endl;
                     cin >> choixAmandesGrillee;
                     if(choixAmandesGrillee == "1" ){
-                        tarte.ajouterIngredient(amandesGrillees);
+                        tarte.ajouterIngredient(new Ingredient("Amandes Grillees", qtAmandesGrilleesTarte));
                     }else {
                         cout << "Erreur dans la saisie !";
                     }
@@ -201,7 +201,7 @@ int main() {
                     cin >> nbGateauTarte;
 
                     for(int i = 0; i < nbGateauTarte; i++) {
-                        patisserie.ajouter(tarte);
+                        patisserie.ajouter(&tarte);
                     }
                     tarte.afficherIngredients();
 

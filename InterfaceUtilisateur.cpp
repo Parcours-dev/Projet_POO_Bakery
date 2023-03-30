@@ -115,7 +115,7 @@ int main() {
                     while(!validation){
                         cout << "Type de creme (Vanille (1) ou Chocolat (2)) : ";
                         cin >> choixCreme;
-                        if(choixCreme == "1" ){
+                        if (choixCreme == "1"){
                             chou.ajouterIngredient(cremeVanille);
                             validation = true;
                         } else if (choixCreme == "2"){
@@ -125,6 +125,7 @@ int main() {
                         cout << "Erreur dans le choix de la creme !" << endl;
                         }
                     }
+
                     validation = false;
                     while(!validation){
                         cout << "Presence de Chantilly ? (1 = Oui / 0 = Non) :" << endl;
@@ -219,18 +220,26 @@ int main() {
                     cin >> nomTarte;
                     Gateau tarte(nomTarte);
 
-                    cout << "Saisissez les ingredients du chou :" << endl;
-                    cout << "Base de fruit (Pomme (1) ou Abricot (2)) : ";
-                    cin >> choixFruit;
-                    if(choixFruit == "1" ){
-                        tarte.ajouterIngredient(fruitPomme);
-                    }else if (choixFruit == "2"){
-                        tarte.ajouterIngredient(fruitAbricot);
-                    }else {
-                        cout << "Erreur dans le choix de la creme !";
-                    }
+                    cout << "Saisissez les ingredients de la tarte :" << endl;
 
                     bool validation = false;
+                    while(!validation){
+                        cout << "Base de fruit (Pomme (1) ou Abricot (2)) : ";
+                        cin >> choixFruit;
+                        if (choixFruit == "1"){
+                            tarte.ajouterIngredient(fruitPomme);
+                            validation = true;
+                        } else if (choixFruit == "2"){
+                            tarte.ajouterIngredient(fruitAbricot);
+                            validation = true;
+                        } else {
+                            cout << "Erreur dans le choix des fruits !" << endl;
+                        }
+                    }
+
+
+
+                    validation = false;
                     while(!validation){
                         cout << "Presence de Meringue ? (1 = Oui / 0 = Non) :" << endl;
                         cin >> choixMereingue;

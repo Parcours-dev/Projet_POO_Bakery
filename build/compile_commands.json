@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/adritchi/MIAGE/POO/Projet_POO_Bakery/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/Projet_POO.dir/main.cpp.o -c /home/adritchi/MIAGE/POO/Projet_POO_Bakery/main.cpp",
+  "file": "/home/adritchi/MIAGE/POO/Projet_POO_Bakery/main.cpp",
+  "output": "CMakeFiles/Projet_POO.dir/main.cpp.o"
+},
+{
+  "directory": "/home/adritchi/MIAGE/POO/Projet_POO_Bakery/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/Projet_POO.dir/Ingredient.cpp.o -c /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Ingredient.cpp",
+  "file": "/home/adritchi/MIAGE/POO/Projet_POO_Bakery/Ingredient.cpp",
+  "output": "CMakeFiles/Projet_POO.dir/Ingredient.cpp.o"
+},
+{
+  "directory": "/home/adritchi/MIAGE/POO/Projet_POO_Bakery/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/Projet_POO.dir/Gateau.cpp.o -c /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Gateau.cpp",
+  "file": "/home/adritchi/MIAGE/POO/Projet_POO_Bakery/Gateau.cpp",
+  "output": "CMakeFiles/Projet_POO.dir/Gateau.cpp.o"
+},
+{
+  "directory": "/home/adritchi/MIAGE/POO/Projet_POO_Bakery/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/Projet_POO.dir/Chou.cpp.o -c /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Chou.cpp",
+  "file": "/home/adritchi/MIAGE/POO/Projet_POO_Bakery/Chou.cpp",
+  "output": "CMakeFiles/Projet_POO.dir/Chou.cpp.o"
+},
+{
+  "directory": "/home/adritchi/MIAGE/POO/Projet_POO_Bakery/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/Projet_POO.dir/Tarte.cpp.o -c /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Tarte.cpp",
+  "file": "/home/adritchi/MIAGE/POO/Projet_POO_Bakery/Tarte.cpp",
+  "output": "CMakeFiles/Projet_POO.dir/Tarte.cpp.o"
+},
+{
+  "directory": "/home/adritchi/MIAGE/POO/Projet_POO_Bakery/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/Projet_POO.dir/Patisserie.cpp.o -c /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Patisserie.cpp",
+  "file": "/home/adritchi/MIAGE/POO/Projet_POO_Bakery/Patisserie.cpp",
+  "output": "CMakeFiles/Projet_POO.dir/Patisserie.cpp.o"
+},
+{
+  "directory": "/home/adritchi/MIAGE/POO/Projet_POO_Bakery/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/Projet_POO.dir/InterfaceUtilisateur.cpp.o -c /home/adritchi/MIAGE/POO/Projet_POO_Bakery/InterfaceUtilisateur.cpp",
+  "file": "/home/adritchi/MIAGE/POO/Projet_POO_Bakery/InterfaceUtilisateur.cpp",
+  "output": "CMakeFiles/Projet_POO.dir/InterfaceUtilisateur.cpp.o"
+}
+]

@@ -1,0 +1,3 @@
+/home/adritchi/MIAGE/POO/Projet_POO_Bakery/build/CMakeFiles/Projet_POO.dir
+/home/adritchi/MIAGE/POO/Projet_POO_Bakery/build/CMakeFiles/edit_cache.dir
+/home/adritchi/MIAGE/POO/Projet_POO_Bakery/build/CMakeFiles/rebuild_cache.dir

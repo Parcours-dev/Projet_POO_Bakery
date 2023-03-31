@@ -111,38 +111,10 @@ CMakeFiles/Projet_POO.dir/Gateau.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projet_POO.dir/Gateau.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Gateau.cpp -o CMakeFiles/Projet_POO.dir/Gateau.cpp.s
 
-CMakeFiles/Projet_POO.dir/Chou.cpp.o: CMakeFiles/Projet_POO.dir/flags.make
-CMakeFiles/Projet_POO.dir/Chou.cpp.o: /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Chou.cpp
-CMakeFiles/Projet_POO.dir/Chou.cpp.o: CMakeFiles/Projet_POO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adritchi/MIAGE/POO/Projet_POO_Bakery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Projet_POO.dir/Chou.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Projet_POO.dir/Chou.cpp.o -MF CMakeFiles/Projet_POO.dir/Chou.cpp.o.d -o CMakeFiles/Projet_POO.dir/Chou.cpp.o -c /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Chou.cpp
-
-CMakeFiles/Projet_POO.dir/Chou.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projet_POO.dir/Chou.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Chou.cpp > CMakeFiles/Projet_POO.dir/Chou.cpp.i
-
-CMakeFiles/Projet_POO.dir/Chou.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projet_POO.dir/Chou.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Chou.cpp -o CMakeFiles/Projet_POO.dir/Chou.cpp.s
-
-CMakeFiles/Projet_POO.dir/Tarte.cpp.o: CMakeFiles/Projet_POO.dir/flags.make
-CMakeFiles/Projet_POO.dir/Tarte.cpp.o: /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Tarte.cpp
-CMakeFiles/Projet_POO.dir/Tarte.cpp.o: CMakeFiles/Projet_POO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adritchi/MIAGE/POO/Projet_POO_Bakery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Projet_POO.dir/Tarte.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Projet_POO.dir/Tarte.cpp.o -MF CMakeFiles/Projet_POO.dir/Tarte.cpp.o.d -o CMakeFiles/Projet_POO.dir/Tarte.cpp.o -c /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Tarte.cpp
-
-CMakeFiles/Projet_POO.dir/Tarte.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Projet_POO.dir/Tarte.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Tarte.cpp > CMakeFiles/Projet_POO.dir/Tarte.cpp.i
-
-CMakeFiles/Projet_POO.dir/Tarte.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Projet_POO.dir/Tarte.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Tarte.cpp -o CMakeFiles/Projet_POO.dir/Tarte.cpp.s
-
 CMakeFiles/Projet_POO.dir/Patisserie.cpp.o: CMakeFiles/Projet_POO.dir/flags.make
 CMakeFiles/Projet_POO.dir/Patisserie.cpp.o: /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Patisserie.cpp
 CMakeFiles/Projet_POO.dir/Patisserie.cpp.o: CMakeFiles/Projet_POO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adritchi/MIAGE/POO/Projet_POO_Bakery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Projet_POO.dir/Patisserie.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adritchi/MIAGE/POO/Projet_POO_Bakery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Projet_POO.dir/Patisserie.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Projet_POO.dir/Patisserie.cpp.o -MF CMakeFiles/Projet_POO.dir/Patisserie.cpp.o.d -o CMakeFiles/Projet_POO.dir/Patisserie.cpp.o -c /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Patisserie.cpp
 
 CMakeFiles/Projet_POO.dir/Patisserie.cpp.i: cmake_force
@@ -156,7 +128,7 @@ CMakeFiles/Projet_POO.dir/Patisserie.cpp.s: cmake_force
 CMakeFiles/Projet_POO.dir/InterfaceUtilisateur.cpp.o: CMakeFiles/Projet_POO.dir/flags.make
 CMakeFiles/Projet_POO.dir/InterfaceUtilisateur.cpp.o: /home/adritchi/MIAGE/POO/Projet_POO_Bakery/InterfaceUtilisateur.cpp
 CMakeFiles/Projet_POO.dir/InterfaceUtilisateur.cpp.o: CMakeFiles/Projet_POO.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adritchi/MIAGE/POO/Projet_POO_Bakery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Projet_POO.dir/InterfaceUtilisateur.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adritchi/MIAGE/POO/Projet_POO_Bakery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Projet_POO.dir/InterfaceUtilisateur.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Projet_POO.dir/InterfaceUtilisateur.cpp.o -MF CMakeFiles/Projet_POO.dir/InterfaceUtilisateur.cpp.o.d -o CMakeFiles/Projet_POO.dir/InterfaceUtilisateur.cpp.o -c /home/adritchi/MIAGE/POO/Projet_POO_Bakery/InterfaceUtilisateur.cpp
 
 CMakeFiles/Projet_POO.dir/InterfaceUtilisateur.cpp.i: cmake_force
@@ -172,8 +144,6 @@ Projet_POO_OBJECTS = \
 "CMakeFiles/Projet_POO.dir/main.cpp.o" \
 "CMakeFiles/Projet_POO.dir/Ingredient.cpp.o" \
 "CMakeFiles/Projet_POO.dir/Gateau.cpp.o" \
-"CMakeFiles/Projet_POO.dir/Chou.cpp.o" \
-"CMakeFiles/Projet_POO.dir/Tarte.cpp.o" \
 "CMakeFiles/Projet_POO.dir/Patisserie.cpp.o" \
 "CMakeFiles/Projet_POO.dir/InterfaceUtilisateur.cpp.o"
 
@@ -183,13 +153,11 @@ Projet_POO_EXTERNAL_OBJECTS =
 Projet_POO: CMakeFiles/Projet_POO.dir/main.cpp.o
 Projet_POO: CMakeFiles/Projet_POO.dir/Ingredient.cpp.o
 Projet_POO: CMakeFiles/Projet_POO.dir/Gateau.cpp.o
-Projet_POO: CMakeFiles/Projet_POO.dir/Chou.cpp.o
-Projet_POO: CMakeFiles/Projet_POO.dir/Tarte.cpp.o
 Projet_POO: CMakeFiles/Projet_POO.dir/Patisserie.cpp.o
 Projet_POO: CMakeFiles/Projet_POO.dir/InterfaceUtilisateur.cpp.o
 Projet_POO: CMakeFiles/Projet_POO.dir/build.make
 Projet_POO: CMakeFiles/Projet_POO.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adritchi/MIAGE/POO/Projet_POO_Bakery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Projet_POO"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adritchi/MIAGE/POO/Projet_POO_Bakery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Projet_POO"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Projet_POO.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

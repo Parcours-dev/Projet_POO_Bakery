@@ -129,30 +129,6 @@ Projet_POO/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projet_POO.dir/build.make CMakeFiles/Projet_POO.dir/build
 .PHONY : Projet_POO/fast
 
-Chou.o: Chou.cpp.o
-.PHONY : Chou.o
-
-# target to build an object file
-Chou.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projet_POO.dir/build.make CMakeFiles/Projet_POO.dir/Chou.cpp.o
-.PHONY : Chou.cpp.o
-
-Chou.i: Chou.cpp.i
-.PHONY : Chou.i
-
-# target to preprocess a source file
-Chou.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projet_POO.dir/build.make CMakeFiles/Projet_POO.dir/Chou.cpp.i
-.PHONY : Chou.cpp.i
-
-Chou.s: Chou.cpp.s
-.PHONY : Chou.s
-
-# target to generate assembly for a file
-Chou.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projet_POO.dir/build.make CMakeFiles/Projet_POO.dir/Chou.cpp.s
-.PHONY : Chou.cpp.s
-
 Gateau.o: Gateau.cpp.o
 .PHONY : Gateau.o
 
@@ -249,30 +225,6 @@ Patisserie.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projet_POO.dir/build.make CMakeFiles/Projet_POO.dir/Patisserie.cpp.s
 .PHONY : Patisserie.cpp.s
 
-Tarte.o: Tarte.cpp.o
-.PHONY : Tarte.o
-
-# target to build an object file
-Tarte.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projet_POO.dir/build.make CMakeFiles/Projet_POO.dir/Tarte.cpp.o
-.PHONY : Tarte.cpp.o
-
-Tarte.i: Tarte.cpp.i
-.PHONY : Tarte.i
-
-# target to preprocess a source file
-Tarte.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projet_POO.dir/build.make CMakeFiles/Projet_POO.dir/Tarte.cpp.i
-.PHONY : Tarte.cpp.i
-
-Tarte.s: Tarte.cpp.s
-.PHONY : Tarte.s
-
-# target to generate assembly for a file
-Tarte.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Projet_POO.dir/build.make CMakeFiles/Projet_POO.dir/Tarte.cpp.s
-.PHONY : Tarte.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -306,9 +258,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Projet_POO"
-	@echo "... Chou.o"
-	@echo "... Chou.i"
-	@echo "... Chou.s"
 	@echo "... Gateau.o"
 	@echo "... Gateau.i"
 	@echo "... Gateau.s"
@@ -321,9 +270,6 @@ help:
 	@echo "... Patisserie.o"
 	@echo "... Patisserie.i"
 	@echo "... Patisserie.s"
-	@echo "... Tarte.o"
-	@echo "... Tarte.i"
-	@echo "... Tarte.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

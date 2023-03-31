@@ -19,18 +19,6 @@
 },
 {
   "directory": "/home/adritchi/MIAGE/POO/Projet_POO_Bakery/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/Projet_POO.dir/Chou.cpp.o -c /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Chou.cpp",
-  "file": "/home/adritchi/MIAGE/POO/Projet_POO_Bakery/Chou.cpp",
-  "output": "CMakeFiles/Projet_POO.dir/Chou.cpp.o"
-},
-{
-  "directory": "/home/adritchi/MIAGE/POO/Projet_POO_Bakery/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/Projet_POO.dir/Tarte.cpp.o -c /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Tarte.cpp",
-  "file": "/home/adritchi/MIAGE/POO/Projet_POO_Bakery/Tarte.cpp",
-  "output": "CMakeFiles/Projet_POO.dir/Tarte.cpp.o"
-},
-{
-  "directory": "/home/adritchi/MIAGE/POO/Projet_POO_Bakery/build",
   "command": "/usr/bin/g++   -g -o CMakeFiles/Projet_POO.dir/Patisserie.cpp.o -c /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Patisserie.cpp",
   "file": "/home/adritchi/MIAGE/POO/Projet_POO_Bakery/Patisserie.cpp",
   "output": "CMakeFiles/Projet_POO.dir/Patisserie.cpp.o"

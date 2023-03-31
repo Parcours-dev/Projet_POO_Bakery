@@ -152,7 +152,5 @@ CMakeFiles/Projet_POO.dir/main.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Chou.hpp \
- /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Tarte.hpp \
  /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Patisserie.hpp \
  /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Commande.hpp

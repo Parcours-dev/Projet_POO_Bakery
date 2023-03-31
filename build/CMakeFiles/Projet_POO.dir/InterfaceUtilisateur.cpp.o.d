@@ -153,6 +153,4 @@ CMakeFiles/Projet_POO.dir/InterfaceUtilisateur.cpp.o: \
  /usr/include/c++/11/bits/vector.tcc \
  /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Gateau.hpp \
  /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Ingredient.hpp \
- /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Commande.hpp \
- /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Chou.hpp \
- /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Tarte.hpp
+ /home/adritchi/MIAGE/POO/Projet_POO_Bakery/Commande.hpp

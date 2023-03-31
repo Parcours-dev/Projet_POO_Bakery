@@ -353,6 +353,7 @@ int main() {
                             break;
                     }
                 } while (choixCommande != 4);
+                break;
             }
 
             case 5:{

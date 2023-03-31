@@ -80,7 +80,7 @@ int main() {
         cout << "4. Espace Commande" << endl;
         cout << "5. Quitter" << endl;
         cin >> choix;
-
+        
         switch (choix) {
             case 1: {
                 cout << "Quel type de gateau voulez-vous creer ?" << endl;

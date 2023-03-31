@@ -191,17 +191,6 @@ int main() {
                     }
                     chou.afficherIngredients();
 
-                    int nbGateauChou;
-                    cout << "Combien de chou voulez vous mettre dans votre Patisserie ?" << endl;
-                    cin >> nbGateauChou;
-
-                    for(int i = 0; i < nbGateauChou; i++) {
-                        patisserie.ajouter(chou);
-                    }
-
-                    chou.afficherIngredients();
-
-
                 } else if (type == 2) {
 
                     Ingredient fruitPomme("Pomme", qtPommes);
@@ -367,6 +356,8 @@ int main() {
             }
 
             case 5:{
+                // Quitter
+                cout << "Au revoir !" << endl;
                 return 0;
             }
 

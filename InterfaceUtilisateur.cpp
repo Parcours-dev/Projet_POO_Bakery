@@ -3,8 +3,7 @@
 #include <iostream>
 #include <string>
 #include "Patisserie.hpp"
-#include "Chou.hpp"
-#include "Tarte.hpp"
+
 
 using namespace std;
 

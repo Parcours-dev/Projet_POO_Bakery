@@ -1,8 +1,7 @@
 #include <iostream>
 #include "Ingredient.hpp"
 #include "Gateau.hpp"
-#include "Chou.hpp"
-#include "Tarte.hpp"
+
 #include "Patisserie.hpp"
 
 int main2() {

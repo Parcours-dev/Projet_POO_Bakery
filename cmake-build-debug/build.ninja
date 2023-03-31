@@ -67,18 +67,6 @@ build CMakeFiles/Projet_POO.dir/Gateau.cpp.obj: CXX_COMPILER__Projet_POO_Debug C
   OBJECT_DIR = CMakeFiles\Projet_POO.dir
   OBJECT_FILE_DIR = CMakeFiles\Projet_POO.dir
 
-build CMakeFiles/Projet_POO.dir/Chou.cpp.obj: CXX_COMPILER__Projet_POO_Debug C$:/Users/Alexis$ Bironneau/CLionProjects/Projet$ POO/Chou.cpp || cmake_object_order_depends_target_Projet_POO
-  DEP_FILE = CMakeFiles\Projet_POO.dir\Chou.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++17
-  OBJECT_DIR = CMakeFiles\Projet_POO.dir
-  OBJECT_FILE_DIR = CMakeFiles\Projet_POO.dir
-
-build CMakeFiles/Projet_POO.dir/Tarte.cpp.obj: CXX_COMPILER__Projet_POO_Debug C$:/Users/Alexis$ Bironneau/CLionProjects/Projet$ POO/Tarte.cpp || cmake_object_order_depends_target_Projet_POO
-  DEP_FILE = CMakeFiles\Projet_POO.dir\Tarte.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++17
-  OBJECT_DIR = CMakeFiles\Projet_POO.dir
-  OBJECT_FILE_DIR = CMakeFiles\Projet_POO.dir
-
 build CMakeFiles/Projet_POO.dir/Patisserie.cpp.obj: CXX_COMPILER__Projet_POO_Debug C$:/Users/Alexis$ Bironneau/CLionProjects/Projet$ POO/Patisserie.cpp || cmake_object_order_depends_target_Projet_POO
   DEP_FILE = CMakeFiles\Projet_POO.dir\Patisserie.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++17
@@ -99,7 +87,7 @@ build CMakeFiles/Projet_POO.dir/InterfaceUtilisateur.cpp.obj: CXX_COMPILER__Proj
 #############################################
 # Link the executable Projet_POO.exe
 
-build Projet_POO.exe: CXX_EXECUTABLE_LINKER__Projet_POO_Debug CMakeFiles/Projet_POO.dir/main.cpp.obj CMakeFiles/Projet_POO.dir/Ingredient.cpp.obj CMakeFiles/Projet_POO.dir/Gateau.cpp.obj CMakeFiles/Projet_POO.dir/Chou.cpp.obj CMakeFiles/Projet_POO.dir/Tarte.cpp.obj CMakeFiles/Projet_POO.dir/Patisserie.cpp.obj CMakeFiles/Projet_POO.dir/InterfaceUtilisateur.cpp.obj
+build Projet_POO.exe: CXX_EXECUTABLE_LINKER__Projet_POO_Debug CMakeFiles/Projet_POO.dir/main.cpp.obj CMakeFiles/Projet_POO.dir/Ingredient.cpp.obj CMakeFiles/Projet_POO.dir/Gateau.cpp.obj CMakeFiles/Projet_POO.dir/Patisserie.cpp.obj CMakeFiles/Projet_POO.dir/InterfaceUtilisateur.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Projet_POO.dir

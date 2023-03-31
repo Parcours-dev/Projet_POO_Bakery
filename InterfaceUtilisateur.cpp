@@ -1,4 +1,3 @@
-//
 // Created by Alexis Bironneau on 30/03/2023.
 //
 #include <iostream>
@@ -63,12 +62,14 @@ int main() {
     while (true) {
 
         cout << "----------------------------------------" << endl;
+        cout << "" << endl;
         cout << "Bienvenue dans notre patisserie !" << endl;
         cout << "Que voulez-vous faire ?" << endl;
         cout << "1. Creer un gateau" << endl;
         cout << "2. Afficher le contenu de la patisserie" << endl;
         cout << "3. Acheter un gateau" << endl;
-        cout << "4. Quitter" << endl;
+        cout << "4. Espace Commande" << endl;
+        cout << "5. Quitter" << endl;
         cin >> choix;
 
         switch (choix) {
@@ -92,6 +93,8 @@ int main() {
                     string choixNoisettes;
                     string choixAmandesGrillee;
                     string nomChou;
+
+
 
                     cout << "Saisissez le nom du Chou :" << endl;
                     cin >> nomChou;
@@ -216,28 +219,61 @@ int main() {
                 break;
             case 3: {
                 if (patisserie.estVide()) {
-                    cout << "Il n'y a plus de gateaux à acheter !" << endl;
+                    cout << "Il n'y a plus de gateaux a acheter !" << endl;
                 } else {
-                    cout << "Quel gateau voulez-vous acheter ? (saisir son numero / Le premier est 0)" << endl;
+                    cout << "Quel gateau voulez-vous acheter ?" << endl;
                     patisserie.afficher();
                     int numero = 0;
                     cin >> numero;
                     if (numero >= 0 && numero < patisserie.getStock().size()) {
-                        Gateau* gateau = patisserie.getStock()[numero];
+                        const Gateau* gateau = &(patisserie.getStock()[numero]);
                         bool dernier = false;
                         if (patisserie.acheter(gateau, dernier)) {
                             if (dernier) {
-                                cout << "C etait le dernier gateau en stock !" << endl;
+                                cout << "C'etait le dernier gateau en stock !" << endl;
                             }
                             cout << "Gateau achete !" << endl;
-                        }else {
+                        } else {
                             cout << "Le gateau n'est plus disponible." << endl;
                         }
-                    }
-                    else {
+                    } else {
                         cout << "Numero de gateau invalide." << endl;
                     }
-                }
+                }break;
+            }
+            case 4: {
+                int choixCommande;
+                do {
+                    cout << "Que voulez-vous faire ?" << endl;
+                    cout << "1. Afficher toutes les commandes" << endl;
+                    cout << "2. Ajouter une commande" << endl;
+                    cout << "3. Supprimer une commande" << endl;
+                    cout << "4. Retourner au menu principal" << endl;
+                    cin >> choixCommande;
+
+                    switch (choixCommande) {
+                        case 1:
+                            patisserie.afficherCommandes();
+                            break;
+                        case 2:
+                            patisserie.ajouterCommande(patisserie);
+                            break;
+                        case 3:
+                            patisserie.supprimerCommande();
+                            break;
+                        case 4:
+                            cout << "Retour au menu principal." << endl;
+                            break;
+                        default:
+                            cout << "Choix invalide." << endl;
+                            break;
+                    }
+                } while (choixCommande != 4);
+            }
+
+            case 5:{
+
+                abort();
             }
         }
     }

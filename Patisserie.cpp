@@ -1,23 +1,24 @@
-//
-// Created by Alexis Bironneau on 30/03/2023.
-//
 #include "Patisserie.hpp"
 
+using namespace std;
+
+// Ajoute un gateau au stock de la patisserie
 void Patisserie::ajouter(Gateau gateau) {
     stock_.push_back(gateau);
 }
 
+// Affiche le stock de la patisserie avec le nom de chaque gateau
 void Patisserie::afficher() {
-    std::cout << "Stock de la patisserie :" << std::endl;
+    cout << "Stock de la patisserie :" << endl;
     for (size_t i = 0; i < stock_.size(); i++) {
-        std::cout << i << ". " << stock_[i].getNom() << std::endl;
+        cout << i << ". " << stock_[i].getNom() << endl;
     }
 }
 
-
-bool Patisserie::acheter(const Gateau* gateau, bool& dernier) {
+// Achete un gateau en le supprimant du stock de la patisserie et renvoie true si l'achat a reussi, sinon false
+bool Patisserie::acheter(const Gateau * gateau, bool & dernier) {
     for (auto it = stock_.begin(); it != stock_.end(); it++) {
-        if (&(*it) == gateau) {
+        if ( & ( * it) == gateau) {
             stock_.erase(it);
             dernier = (stock_.size() == 0);
             return true;
@@ -26,9 +27,7 @@ bool Patisserie::acheter(const Gateau* gateau, bool& dernier) {
     return false;
 }
 
-const vector<Gateau>& Patisserie::getStock() const {
+// Renvoie le stock de la patisserie
+const vector < Gateau > & Patisserie::getStock() const {
     return stock_;
 }
-
-
-

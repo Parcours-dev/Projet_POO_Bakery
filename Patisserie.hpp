@@ -1,7 +1,3 @@
-//
-// Created by Alexis Bironneau on 30/03/2023.
-//
-
 #ifndef PROJET_POO_PATISSERIE_HPP
 #define PROJET_POO_PATISSERIE_HPP
 
@@ -46,7 +42,7 @@ public:
     void afficherCommandes() {
         for (const Commande & commande: commandes_) {
             int numCommande = 1;
-            cout << "Commande numéro : " << numCommande << endl;
+            cout << "Commande numero : " << numCommande << endl;
             numCommande++;
             cout << "Nom client : " << commande.getNomClient() << endl;
             cout << "Telephone : " << commande.getTelephone() << endl;

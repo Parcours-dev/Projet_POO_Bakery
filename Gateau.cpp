@@ -1,21 +1,23 @@
-//
-// Created by Alexis Bironneau on 30/03/2023.
-//
 #include "Gateau.hpp"
 
+using namespace std;
 
+// Methode d'acces en lecture pour l'attribut nom
 string Gateau::getNom() const {
     return nom;
 }
 
+// Methode d'acces en ecriture pour l'attribut nom
 void Gateau::setNom(string nom) {
-    this->nom = nom;
+    this -> nom = nom;
 }
 
-vector<Ingredient> Gateau::getIngredients() const {
+// Methode d'acces en lecture pour la liste d'ingredients du gateau
+vector < Ingredient > Gateau::getIngredients() const {
     return ingredients;
 }
 
-void Gateau::setIngredients(vector<Ingredient> ingredients) {
-    this->ingredients = ingredients;
+// Methode d'acces en ecriture pour la liste d'ingredients du gateau
+void Gateau::setIngredients(vector < Ingredient > ingredients) {
+    this -> ingredients = ingredients;
 }

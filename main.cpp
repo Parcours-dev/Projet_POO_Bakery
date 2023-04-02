@@ -53,17 +53,17 @@ int main2() {
     // Achat d'un chou
     bool achatReussi = patisserie.acheter(&chou);
     if (achatReussi) {
-        std::cout << "Achat du chou reussi !" << std::endl;
+        cout << "Achat du chou reussi !" << endl;
     } else {
-        std::cout << "Impossible d'acheter le chou, il n'est plus en stock." << std::endl;
+        cout << "Impossible d'acheter le chou, il n'est plus en stock." << endl;
     }
 
     // Achat d'un gateau
     achatReussi = patisserie.acheter(&gateauAuChocolat);
     if (achatReussi) {
-        std::cout << "Achat du gateau reussi !" << std::endl;
+        cout << "Achat du gateau reussi !" << endl;
     } else {
-        std::cout << "Impossible d'acheter le gateau, il n'est plus en stock." << std::endl;
+        cout << "Impossible d'acheter le gateau, il n'est plus en stock." << endl;
     }
 
     // Affichage du stock de la patisserie apres les achats

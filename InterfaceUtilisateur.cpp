@@ -107,7 +107,7 @@ int main() {
 
         switch (choix) {
             case 1: {
-                // Creation d'un geteau - Choix du type
+                // Creation d'un gateau - Choix du type
                 cout << "Quel type de gateau voulez-vous creer ?" << endl;
                 cout << "1. Chou" << endl;
                 cout << "2. Tarte" << endl;

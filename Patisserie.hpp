@@ -10,7 +10,8 @@
 #include "Commande.hpp"
 
 class Patisserie {
-private: vector < Gateau > stock_; // Stock de la patisserie
+private:
+    vector < Gateau > stock_; // Stock de la patisserie
     vector < Commande > commandes_; // Liste des commandes enregistrees
 
 public:

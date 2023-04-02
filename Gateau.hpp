@@ -9,7 +9,8 @@
 using namespace std;
 
 class Gateau {
-public: string nom; // Attribut public pour le nom du gateau
+public:
+    string nom; // Attribut public pour le nom du gateau
     vector < Ingredient > ingredients; // Attribut public pour la liste d'ingredients du gateau
 
     Gateau(string nom) { // Constructeur de la classe Gateau

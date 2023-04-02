@@ -7,7 +7,8 @@
 using namespace std;
 
 class Ingredient {
-public: string nom; // Le nom de l'ingredient
+public:
+    string nom; // Le nom de l'ingredient
     int quantite; // La quantite de l'ingredient
 
     Ingredient(string nom, int quantite) { // Constructeur prenant en parametre le nom et la quantite de l'ingredient

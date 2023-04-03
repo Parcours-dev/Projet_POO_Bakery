@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// Verifie si une cha?ne de caracteres contient uniquement des chiffres
+// Verifie si une chaine de caracteres contient uniquement des chiffres
 bool estEntierValide(string s) {
     for (char c: s) {
         if (!isdigit(c)) {
@@ -57,41 +57,39 @@ int main() {
     int qtAmandesGrilleesTarte = 50;
     int qtNoisetteChou = 50;
     int qtAmandesGrilleesChou = 50;
-    /*
-        // Creation des ingredients
-        cout << "Avant toute chose, nous devons definir les quantites par gateau (Tout est en grammes)" << endl;
-        cout << "Quelle est la quantite de Creme Vanille par chou :" << endl;
-        cin >> qtCremeVanille;
+    // Creation des ingredients
+    cout << "Avant toute chose, nous devons definir les quantites par gateau (Tout est en grammes)" << endl;
+    cout << "Quelle est la quantite de Creme Vanille par chou :" << endl;
+    cin >> qtCremeVanille;
 
-        cout << "Quelle est la quantite de Creme Chocolat par chou :" << endl;
-        cin >> qtCremeChocolat;
+    cout << "Quelle est la quantite de Creme Chocolat par chou :" << endl;
+    cin >> qtCremeChocolat;
 
-        cout << "Quelle est la quantite de Chantilly par chou :" << endl;
-        cin >> qtChantilly;
+    cout << "Quelle est la quantite de Chantilly par chou :" << endl;
+    cin >> qtChantilly;
 
-        cout << "Quelle est la quantite de Noisettes par chou :" << endl;
-        cin >> qtNoisetteChou;
+    cout << "Quelle est la quantite de Noisettes par chou :" << endl;
+    cin >> qtNoisetteChou;
 
-        cout << "Quelle est la quantite d'Amandes Grillees' par chou :" << endl;
-        cin >> qtAmandesGrilleesChou;
+    cout << "Quelle est la quantite d'Amandes Grillees' par chou :" << endl;
+    cin >> qtAmandesGrilleesChou;
 
-        cout << "Maintenant pour une tarte, nous devons definir les quantites par gateau (Tout est en grammes)" << endl;
-        cout << "Quelle est la quantite de Pommes par tarte :" << endl;
-        cin >> qtPommes;
+    cout << "Maintenant pour une tarte, nous devons definir les quantites par gateau (Tout est en grammes)" << endl;
+    cout << "Quelle est la quantite de Pommes par tarte :" << endl;
+    cin >> qtPommes;
 
-        cout << "Quelle est la quantite d'Abricots par tarte :" << endl;
-        cin >> qtAbricots;
+    cout << "Quelle est la quantite d'Abricots par tarte :" << endl;
+    cin >> qtAbricots;
 
-        cout << "Quelle est la quantite de meringue par tarte :" << endl;
-        cin >> qtMeringue;
+    cout << "Quelle est la quantite de meringue par tarte :" << endl;
+    cin >> qtMeringue;
 
-        cout << "Quelle est la quantite de Noisettes par tarte :" << endl;
-        cin >> qtNoisetteTarte;
+    cout << "Quelle est la quantite de Noisettes par tarte :" << endl;
+    cin >> qtNoisetteTarte;
 
-        cout << "Quelle est la quantite d'Amandes Grillees' par tarte :" << endl;
-        cin >> qtAmandesGrilleesTarte;
+    cout << "Quelle est la quantite d'Amandes Grillees' par tarte :" << endl;
+    cin >> qtAmandesGrilleesTarte;
 
-        */
     while (true) {
         // Menu principal
         cout << "----------------------------------------" << endl;
